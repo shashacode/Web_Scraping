@@ -26,16 +26,16 @@ import requests
 #     print(product.text)
 #     print() 
 
-wiki_url = "https://en.wikipedia.org/wiki/Nigeria"
-wiki_request = requests.get(wiki_url)
+# wiki_url = "https://en.wikipedia.org/wiki/Nigeria"
+# wiki_request = requests.get(wiki_url)
 
-wiki_html = wiki_request.content
+# wiki_html = wiki_request.content
 
 # print(wiki_html)
 
-wiki_soup = BeautifulSoup(wiki_html, features = "html.parser")
+# wiki_soup = BeautifulSoup(wiki_html, features = "html.parser")
 
-filter_1 = wiki_soup.find_all("th")
+# filter_1 = wiki_soup.find_all("th")
 
 # filter_2 = wiki_soup.find_all("a")
 
@@ -59,4 +59,4 @@ filter_1 = wiki_soup.find_all("th")
 
 # for Nigeria in filter_4:
 #     print(Nigeria.text)
-#     print()
+#     print() 
